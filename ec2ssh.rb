@@ -12,6 +12,6 @@ class Ec2ssh < Formula
   end
 
   def install
-    bin.install "e2ssh"
+    bin.install "ec2ssh"
   end
 end
