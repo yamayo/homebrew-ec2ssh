@@ -1,14 +1,14 @@
 class Ec2ssh < Formula
   desc ""
   homepage "https://github.com/yamayo/ec2ssh"
-  version "0.1.0"
+  version "0.1.1"
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/yamayo/ec2ssh/releases/download/v0.1.0/ec2ssh-v0.1.0-darwin-amd64.tar.gz"
-    sha256 "a8732da4be87fe41ede1c90461003c7cde170c2d930fc88e0f2f7261b37a946d"
+    url "https://github.com/yamayo/ec2ssh/releases/download/v0.1.1/ec2ssh-v0.1.1-darwin-amd64.tar.gz"
+    sha256 "70f2ccb59455d10164b865ee98c0b5359f7dd6a68eafef9b12dcf6b008f4ab58"
   else
-    url "https://github.com/yamayo/ec2ssh/releases/download/v0.1.0/ec2ssh-v0.1.0-darwin-386.tar.gz"
-    sha256 "372c5864c3a745cf2834100d2edaac09f9feb80bdef9bac38ec148c9b4923ba0"
+    url "https://github.com/yamayo/ec2ssh/releases/download/v0.1.1/ec2ssh-v0.1.1-darwin-386.tar.gz"
+    sha256 "d00f7b7fee420e4e7ecfbec36c811ad05cb60933dc55106ff4d860e2d0519908"
   end
 
   def install
