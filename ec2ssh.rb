@@ -5,10 +5,10 @@ class Ec2ssh < Formula
 
   if Hardware::CPU.is_64_bit?
     url "https://github.com/yamayo/ec2ssh/releases/download/v0.2.0/ec2ssh-v0.2.0-darwin-amd64.tar.gz"
-    sha256 "572618d45925b98a0344ff2c7b5ac3d809777bfd36129c5423c477398eb6b9d2"
+    sha256 "037228218b162f6a2dd733d218dcb5460acd0b2289fc359dba530fac3a84d057"
   else
     url "https://github.com/yamayo/ec2ssh/releases/download/v0.2.0/ec2ssh-v0.2.0-darwin-386.tar.gz"
-    sha256 "6c394bfe24fa236efc7e91e15c6c1fe10acf0014d1946870bf3e8fc05179b623"
+    sha256 "f17b37d964e27540e523335379b07e1d9585d128aec45a51c824e643a84ed019"
   end
 
   def install
